@@ -9,7 +9,7 @@ The `Length` enum has the following variants:
 - `Length::Fixed(f32)`
 
 ## 1. `Length::Fill` enum
-[`Length::Fill`](https://docs.rs/iced/latest/iced/enum.Length.html#variant.Fill) is used to set a widget's width or height to fill the viewport. For example, setting a `container`'s `width` property to `Length::Fill` will set the `container`'s width to fill the available sapce.
+[`Length::Fill`](https://docs.rs/iced/latest/iced/enum.Length.html#variant.Fill) is used to set a widget's width or height to fill the viewport. For example, setting a `container`'s `width` property to `Length::Fill` will set the `container`'s width to fill the available space.
 
 ```rust,ignore
 let ui = container(...)
